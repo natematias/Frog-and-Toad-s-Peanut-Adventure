@@ -47,7 +47,7 @@
 </attrib>
 <attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
 </attrib>
-<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="system" >
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="" >
 </attrib>
 <attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
@@ -135,7 +135,7 @@
 </attrib>
 <attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Portal-UAT:template:decision.html" >
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Frog-and-Toads-Peanut-Adventure:template:decision.html" >
 </attrib>
 <attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -193,7 +193,7 @@
 </attrib>
 <attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="Rect[ 50 50 750 350]" >
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="" >
 </attrib>
 </attrib>
 <attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
@@ -271,7 +271,7 @@
 </attrib>
 </attrib>
 <attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#ddeedd" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="" >
 </attrib>
 <attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -409,10 +409,10 @@
 </linkTypes>
 <item ID="3334063567" Creator="system" >
 <attribute name="Created" >2009-08-25T16:46:05+01:00</attribute>
-<attribute name="MapScrollX" >-2.91667</attribute>
-<attribute name="MapScrollY" >-6.41667</attribute>
+<attribute name="MapScrollX" >0.0555556</attribute>
+<attribute name="MapScrollY" >-4.36111</attribute>
 <attribute name="Modified" >2009-08-25T16:46:05+01:00</attribute>
-<attribute name="Name" >Portal_Use_cases</attribute>
+<attribute name="Name" >Frog-and-Toads-Peanut-Adventure</attribute>
 <attribute name="SelectionCount" >1</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -421,15 +421,15 @@
 <attribute name="HTMLExportFileName" >index</attribute>
 <attribute name="Height" >3</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2009-08-25T17:15:01+01:00</attribute>
+<attribute name="Modified" >2009-08-26T17:03:47+01:00</attribute>
 <attribute name="Name" >Frog and Toad&apos;s Peanut Adventure</attribute>
-<attribute name="ReadCount" >15</attribute>
-<attribute name="SelectionCount" >37</attribute>
+<attribute name="ReadCount" >16</attribute>
+<attribute name="SelectionCount" >49</attribute>
 <attribute name="Width" >6.5</attribute>
 <attribute name="WindowPlace" >Rect[ 720 402 1420 702]</attribute>
 <attribute name="Xpos" >5.5</attribute>
 <attribute name="Ypos" >-8</attribute>
-<text >Long ago and far away, in the magical forest lived a very scientific Frog, a hungry Toad, and their friend the jumpy Squirrel.One day, Frog and Toad sat by the magical pond, debating the best way to skip peanuts across the perfectly-still waters.Frog believed that the peanuts should be cracked in half, and that the flat inside the of the peanut was the perfect skipping surface.Toad disagreed. He thought that the round peanut outside was just right for maximum skippage. Cracking the peanut would just mess things up.* Click here if you agree with Frog and want to split the peanut.* Toad is right. Click to leave the peanut in one piece.</text>
+<text >Long ago and far away, in the magical forest lived a very scientific Frog, a hungry Toad, and their friend the jumpy Squirrel.One day, Frog and Toad sat by the magical pond, debating the best way to skip peanuts across the perfectly-still waters.Frog believed that the peanuts should be cracked in half, and that the flat inside of the peanut was the perfect skipping surface.Toad disagreed. He thought that the round peanut outside was just right for maximum skippage. Cracking the peanut would just mess things up.* Click here if you agree with Frog and want to split the peanut.* Toad is right. Click to leave the peanut in one piece.</text>
 <styles >
  <tstyle font="Georgia" bold="0" italic="0" underline="0" start="0" size="16" height="19" ascent="15" color="#000000"  />
 </styles>
@@ -499,6 +499,7 @@
 <attribute name="Created" >2009-08-25T17:00:58+01:00</attribute>
 <attribute name="Height" >3.5</attribute>
 <attribute name="Modified" >2009-08-25T17:00:58+01:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >20</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >0.5</attribute>
@@ -570,7 +571,7 @@
 <attribute name="MapScrollY" >-0.166667</attribute>
 <attribute name="Modified" >2009-08-26T10:46:00+01:00</attribute>
 <attribute name="Name" >prototypes</attribute>
-<attribute name="SelectionCount" >13</attribute>
+<attribute name="SelectionCount" >14</attribute>
 <attribute name="TitleHeight" >0.5</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-10.5</attribute>
@@ -621,8 +622,8 @@
 <link name="prototype" sourceid="3334063617" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3334064459" destcreator="system"  />
 <link name="prototype" sourceid="3334063617" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3334064505" destcreator="system"  />
 <link name="prototype" sourceid="3334063617" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3334064527" destcreator="system"  />
-<link name="*untitled" sourceid="3334063967" sourcecreator="system" sstart="526" slen="10" style="0" destid="3334064404" destcreator="system"  />
-<link name="*untitled" sourceid="3334063967" sourcecreator="system" sstart="592" slen="13" style="0" destid="3334064440" destcreator="system"  />
+<link name="*untitled" sourceid="3334063967" sourcecreator="system" sstart="522" slen="10" style="0" destid="3334064404" destcreator="system"  />
+<link name="*untitled" sourceid="3334063967" sourcecreator="system" sstart="588" slen="13" style="0" destid="3334064440" destcreator="system"  />
 <link name="*untitled" sourceid="3334064404" sourcecreator="system" sstart="795" slen="10" style="0" destid="3334064527" destcreator="system"  />
 <link name="*untitled" sourceid="3334064404" sourcecreator="system" sstart="851" slen="10" style="0" destid="3334064480" destcreator="system"  />
 <link name="prototype" sourceid="3334063987" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3334065137" destcreator="system"  />
@@ -687,8 +688,8 @@
    <HTMLParagraphStyle > 1</HTMLParagraphStyle>
    <HTMLViewFont > Lucida Grande</HTMLViewFont>
    <HTMLViewFontSize > 2</HTMLViewFontSize>
-   <ExportTemplatePath > Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Portal-UAT:template:decision.html</ExportTemplatePath>
-   <ExportTemplate > Macintosh HD:Applications:Tinderboxen:Tinderbox-4.7.1.app:Contents:MacOS:templates:html:plain</ExportTemplate>
+   <ExportTemplatePath > Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Frog-and-Toads-Peanut-Adventure:template:decision.html</ExportTemplatePath>
+   <ExportTemplate > Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Frog-and-Toads-Peanut-Adventure:template:decision.html</ExportTemplate>
    <ExportTextTemplate > Macintosh HD:Applications:Tinderboxen:Tinderbox-4.7.1.app:Contents:MacOS:templates:text:outline</ExportTextTemplate>
    <RoadmapWindowWidth > 0</RoadmapWindowWidth>
    <RoadmapWindowHeight > 0</RoadmapWindowHeight>
@@ -713,7 +714,7 @@
    <CurrentAttributeClass > HTML</CurrentAttributeClass>
    <CurrentAttribute > </CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
-   <ExportFolder > Macintosh HD:Applications:Tinderboxen:Tinderbox-4.7.1.app:Contents:MacOS:</ExportFolder>
+   <ExportFolder > Macintosh HD:Users:nathan:Documents:KnowledgeGenerationBureau:Frog-and-Toads-Peanut-Adventure:export:</ExportFolder>
    <ReadOnly > 0</ReadOnly>
    <InfoWindowHeight > 536</InfoWindowHeight>
    <InfoWindowWidth > 306</InfoWindowWidth>
@@ -761,7 +762,8 @@
    <MailPassword > </MailPassword>
 </preferences>
 <windows >
+<window ID="3334063567" Creator="system" type="map" bounds="Rect[ 161 44 1170 833]" x="401" y="136" scale="5" expanded="3334128361 " collapsed="3334063567 "  />
 <window ID="3334128361" Creator="system" type="info" bounds="Rect[ 570 69 876 605]" x="0" y="0" scale="1"  />
-<window ID="3334063567" Creator="system" type="map" bounds="Rect[ 161 44 1170 833]" x="301" y="55" scale="5" expanded="3334128361 " collapsed="3334063567 "  />
+<window ID="3334063967" Creator="system" type="text" bounds="Rect[ 720 402 1420 702]" x="0" y="0" scale="1"  />
 </windows>
 </tinderbox>
